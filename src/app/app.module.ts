@@ -7,9 +7,10 @@ import { SideNavComponent } from './partials/side-nav/side-nav.component';
 import { MainComponent } from './partials/main/main.component';
 import { CasesComponent } from './partials/cases/cases.component';
 import { CasesTableComponent } from './partials/cases-table/cases-table.component';
-import { DocumentsComponent } from './documents/documents.component';
+import { DocumentsComponent } from './pages/documents/documents.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { MainDocumentComponent } from './partials/main-document/main-document.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
     CasesTableComponent,
     DocumentsComponent,
     DashboardComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    MainDocumentComponent
   ],
   imports: [
     BrowserModule,
