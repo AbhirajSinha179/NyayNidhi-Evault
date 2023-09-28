@@ -1,0 +1,21 @@
+<div class="cases-header">
+    <h3>Cases</h3>
+    <div class="cases-header-buttons">
+        <button class="btn btn-primary">+ Add Case</button>
+    </div>
+    <div class="seg"></div>
+</div>
+<div class="cases-list" >
+    <div class="case-list-title">
+        <div class="title">Name</div>
+        <div class="title">Judge</div>
+        <div class="title">Due Date</div>
+        <div class="title">Status</div>
+    </div>
+    <div class="case-list-item" *ngFor="let case of cases">
+        <div class="item">{{case.name}}</div>
+        <div class="item">{{case.judge}}</div>
+        <div class="item">{{case.dueDate}}</div>
+        <div class="item">{{case.status}}</div>
+    </div>
+</div>

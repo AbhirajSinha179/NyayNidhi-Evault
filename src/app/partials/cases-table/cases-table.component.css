@@ -1,0 +1,42 @@
+.cases-header{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:80px;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin: 5px;
+    height: 35px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #E65F2B;
+    &:hover{
+        background-color: #E65F2B;
+        color: white;
+    }
+}
+.title{
+    width: 120px;
+    flex-grow: 1;
+}
+.case-list-title, .case-list-item{
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.item{
+    font-weight: 400;
+    flex-grow:1;
+    flex-basis:0;
+}
